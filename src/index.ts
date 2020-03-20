@@ -1,0 +1,24 @@
+export { isBankCard } from "./isBankCard";
+export { isChinese } from "./isChinese";
+export { isChineseName } from "./isChineseName";
+export { isEmail } from "./isEmail";
+export { isEnglishName } from "./isEnglishName";
+export { isHexColor } from "./isHexColor";
+export { isIDCard } from "./isIDCard";
+export { isIMEI } from "./isIMEI";
+export { isIPnPort } from "./isIPnPort";
+export { isMagnetLink } from "./isMagnetLink";
+export { isNoWord } from "./isNoWord";
+export { isNumAndStr } from "./isNumAndStr";
+export { isPhoneNum } from "./isPhoneNum";
+export { isPlateNum } from "./isPlateNum";
+export { isPostalCode } from "./isPostalCode";
+export { isThunderLink } from "./isThunderLink";
+export { isUnixFilePath } from "./isUnixFilePath";
+export { isUnixFolderPath } from "./isUnixFolderPath";
+export { isUrl } from "./isUrl";
+export { isWechatId } from "./isWechatId";
+export { isWindowsFilePath } from "./isWindowsFilePath";
+export { isWindowsFolderPath } from "./isWindowsFolderPath";
+
+export default {};
