@@ -4,7 +4,7 @@ const child_process = require("child_process");
 
 var PATHS = {
   entryPoint: path.resolve(__dirname, "../src/index.ts"),
-  bundles: path.resolve(__dirname, "../lib/umd"),
+  bundles: path.resolve(__dirname, "../lib/dist"),
 };
 
 var config = (target, mode = "production") => ({
