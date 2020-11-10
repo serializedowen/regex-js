@@ -1,2 +1,5 @@
-export const isThunderLink = (value: string) =>
-  /^thunderx?:\/\/[a-zA-Z\d]+=$/g.test(value);
+import regexMatcherBuilder from './regexMatcherBuilder';
+
+export const isThunderLink = regexMatcherBuilder(
+  /^thunderx?:\/\/[a-zA-Z\d]+=$/g
+);

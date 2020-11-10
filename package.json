@@ -1,13 +1,14 @@
 {
   "name": "@serializedowen/regex.js",
-  "version": "1.3.0",
+  "version": "2.0.0",
   "description": "regex collection",
   "typings": "types/index.d.ts",
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rimraf lib/ types/ && tsc && node build/script.js",
-    "webpack": "webpack"
+    "webpack": "webpack",
+    "prepublish": "npm run build"
   },
   "author": "serializedowen",
   "repository": {

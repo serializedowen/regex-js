@@ -21,27 +21,93 @@ export { isWechatId } from "./isWechatId";
 export { isWindowsFilePath } from "./isWindowsFilePath";
 export { isWindowsFolderPath } from "./isWindowsFolderPath";
 declare const _default: {
-    isBankCard: (value: string) => boolean;
-    isChinese: (value: string) => boolean;
-    isChineseName: (value: string) => boolean;
-    isEmail: (value: string) => boolean;
-    isEnglishName: (value: string) => boolean;
-    isHexColor: (value: string) => boolean;
-    isIDCard: (value: string) => boolean;
-    isIMEI: (value: string) => boolean;
-    isIPnPort: (value: string) => boolean;
-    isMagnetLink: (value: string) => boolean;
-    isNoWord: (value: string) => boolean;
-    isNumAndStr: (value: string) => boolean;
-    isPhoneNum: (value: string) => boolean;
-    isPlateNum: (value: string) => boolean;
-    isPostalCode: (value: string) => boolean;
-    isThunderLink: (value: string) => boolean;
-    isUnixFilePath: (value: string) => boolean;
-    isUnixFolderPath: (value: string) => boolean;
-    isUrl: (value: string) => boolean;
-    isWechatId: (value: string) => boolean;
-    isWindowsFilePath: (value: string) => boolean;
-    isWindowsFolderPath: (value: string) => boolean;
+    isBankCard: {
+        (value: string): boolean;
+        (value: string, useCapture: boolean): RegExpMatchArray;
+    };
+    isChinese: {
+        (value: string): boolean;
+        (value: string, useCapture: boolean): RegExpMatchArray;
+    };
+    isChineseName: {
+        (value: string): boolean;
+        (value: string, useCapture: boolean): RegExpMatchArray;
+    };
+    isEmail: {
+        (value: string): boolean;
+        (value: string, useCapture: boolean): RegExpMatchArray;
+    };
+    isEnglishName: {
+        (value: string): boolean;
+        (value: string, useCapture: boolean): RegExpMatchArray;
+    };
+    isHexColor: {
+        (value: string): boolean;
+        (value: string, useCapture: boolean): RegExpMatchArray;
+    };
+    isIDCard: {
+        (value: string): boolean;
+        (value: string, useCapture: boolean): RegExpMatchArray;
+    };
+    isIMEI: {
+        (value: string): boolean;
+        (value: string, useCapture: boolean): RegExpMatchArray;
+    };
+    isIPnPort: {
+        (value: string): boolean;
+        (value: string, useCapture: boolean): RegExpMatchArray;
+    };
+    isMagnetLink: {
+        (value: string): boolean;
+        (value: string, useCapture: boolean): RegExpMatchArray;
+    };
+    isNoWord: {
+        (value: string): boolean;
+        (value: string, useCapture: boolean): RegExpMatchArray;
+    };
+    isNumAndStr: {
+        (value: string): boolean;
+        (value: string, useCapture: boolean): RegExpMatchArray;
+    };
+    isPhoneNum: {
+        (value: string): boolean;
+        (value: string, useCapture: boolean): RegExpMatchArray;
+    };
+    isPlateNum: {
+        (value: string): boolean;
+        (value: string, useCapture: boolean): RegExpMatchArray;
+    };
+    isPostalCode: {
+        (value: string): boolean;
+        (value: string, useCapture: boolean): RegExpMatchArray;
+    };
+    isThunderLink: {
+        (value: string): boolean;
+        (value: string, useCapture: boolean): RegExpMatchArray;
+    };
+    isUnixFilePath: {
+        (value: string): boolean;
+        (value: string, useCapture: boolean): RegExpMatchArray;
+    };
+    isUnixFolderPath: {
+        (value: string): boolean;
+        (value: string, useCapture: boolean): RegExpMatchArray;
+    };
+    isUrl: {
+        (value: string): boolean;
+        (value: string, useCapture: boolean): RegExpMatchArray;
+    };
+    isWechatId: {
+        (value: string): boolean;
+        (value: string, useCapture: boolean): RegExpMatchArray;
+    };
+    isWindowsFilePath: {
+        (value: string): boolean;
+        (value: string, useCapture: boolean): RegExpMatchArray;
+    };
+    isWindowsFolderPath: {
+        (value: string): boolean;
+        (value: string, useCapture: boolean): RegExpMatchArray;
+    };
 };
 export default _default;

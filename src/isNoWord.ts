@@ -1,1 +1,3 @@
-export const isNoWord = (value: string) => /^[^A-Za-z]*$/g.test(value);
+import regexMatcherBuilder from './regexMatcherBuilder';
+
+export const isNoWord = regexMatcherBuilder(/^[^A-Za-z]*$/g);

@@ -1,1 +1,3 @@
-export const isBankCard = (value: string) => /^[1-9]\d{9,29}$/g.test(value);
+import regexMatcherBuilder from './regexMatcherBuilder';
+const isBankCard = regexMatcherBuilder(/^[1-9]\d{9,29}$/g);
+export { isBankCard };

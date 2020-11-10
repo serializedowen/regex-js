@@ -1,1 +1,4 @@
-export declare const isNoWord: (value: string) => boolean;
+export declare const isNoWord: {
+    (value: string): boolean;
+    (value: string, useCapture: boolean): RegExpMatchArray;
+};

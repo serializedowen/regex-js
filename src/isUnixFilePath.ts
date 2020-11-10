@@ -1,1 +1,3 @@
-export const isUnixFilePath = (value: string) => /^(\/[^/]+)+$/g.test(value);
+import regexMatcherBuilder from './regexMatcherBuilder';
+
+export const isUnixFilePath = regexMatcherBuilder(/^(\/[^/]+)+$/g);

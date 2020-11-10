@@ -1,1 +1,3 @@
-export const isNumAndStr = (value: string) => /^[A-Za-z0-9]+$/g.test(value);
+import regexMatcherBuilder from './regexMatcherBuilder';
+
+export const isNumAndStr = regexMatcherBuilder(/^[A-Za-z0-9]+$/g);
